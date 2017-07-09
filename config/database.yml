@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: onestore_development
+
+test:
+  <<: *default
+  database: onestore_test
+
+production:
+  <<: *default
+  database: onestore_production
+  username: onestore
+  password: <%= ENV['ONESTORE_DATABASE_PASSWORD'] %>

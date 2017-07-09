@@ -1,0 +1,337 @@
+en:
+#--=== J&Z SELECT ===--#
+  j-and-z-select: J & Z SELECT
+
+#--=== Devise 相关 ===--#
+  devise:
+    failure:
+      unauthenticated: Please log in to carry out more actions.
+      not_found_in_database: This account does not exist.
+      invalid: The email or password is invalid.
+    sessions:
+      signed_in: Welcome to this site.
+      signed_out: You have logged out successfully.
+
+  dv-warn-email: Please input your email address.
+  dv-warn-name: Please input your name.
+  dv-warn-pwd: The password is incorrect, please check again.
+  dv-warn-pwd-characters: Password must be 6 ~ 16 characters.
+
+  dv-login: Log In
+  dv-signup: Sign Up
+  dv-email: Email
+  dv-pwd: Password
+  dv-remember-me: Remember me.
+  dv-forgot-pwd: Forget password?
+  dv-check-email: you@example.com
+  dv-name: User Name
+  dv-find-pwd: Find Password
+  dv-account-signin: Are you J&Z Select customer? Please log in.
+  dv-no-account-signup: Sign up now.
+  dv-user: User
+  dv-admin: Administrator
+  dv-set-pwd: Setup 6 ~ 16 characters.
+  dv-confirm-pwd: Confirm Password.
+
+#--=== 提示讯息 ===--#
+  message-add-to-cart-success: You have added the product to cart successfully！
+  message-already-added: This product has been added to cart.
+  message-confirm-clear-cart: Are you sure to clear the cart?
+  message-clear-cart-success: You have cleared the card successfully.
+  message-payment-success: You have completed payment successfully.
+  message-cancel-request-sent: The cancel request has been sent.
+  message-payment-failed: The payment is not successfully.
+
+#--=== 首页 ===--#
+
+  # 商品分类 #
+  th-desk: Stationary
+  slogan-desk:
+    The close relationship between the stationary and life is truly beyond our imagination. Pens, rulers, scissors, paper products, stickers, clips,painings and more, play an important role in one's reals life. J & Z SELECT pays attention to the tiny beautiful of life, concentrate on selection of products from Europe and the United States, Japan, Southeast Asia and other places of skincare, stationery to change your table view.
+
+  th-home: Commodity
+  slogan-home:
+    The texture of life is nothing more than a large and small life props used in daily life. Life props are the main characters in life. All the staff of J & Z SELECT, dedicate to promote the "good life" as the center, thinking of everyday life, strict selection of simple and reliable everyday objects for artifacts and life to find the taste of the people, making a chance encounter.
+
+  th-accessories: Personal Accessories
+  slogan-accessories:
+    Personal Accessories is reflecting one's attitue of life. Any Amount of outstanding items can accompany us for a long time and bring us satisfaction and self confidence. If you also agree with "simple yet extraordinary" concept, or if you want to show an elegant temperament, the high quality products from J & Z will let you fondle admiringly for certain.
+
+
+  # 推荐商品 #
+  th-featured-products: Featured Products
+
+  # 合作品牌 #
+  th-brands: Featured Brands
+
+  # 立即购买 #
+  btn-buy-now: Buy Now
+
+#--=== Footer ===--#
+
+  # 商品资讯 #
+  th-products: Products
+  link-latest: Latest Products
+  link-exclusive: Featured Products
+  link-brands: Featured Brands
+
+  # 购物须知 #
+  th-service-info: Buyer Reading
+  link-shipping: About Shipping
+  link-return: About Return
+  link-faq: FAQ
+
+  # 关于我们 #
+  th-about-us: About Us
+  link-story: Brand Stories
+  link-media: Media Reports
+  link-contact: Contact Us
+
+
+#--=== 商品列表 ===--#
+  nav-brand: Brand Selection
+  no-product-data: The products are yet published
+
+  order-btn-title: Default Order
+  order-btn-hot: By Hotness
+  order-btn-recent: From New to Old
+  order-btn-price-h: Price High to Low
+  order-btn-price-l: Price Low to High
+
+  # will-paginate:
+  previous-label: <span class="fa fa-angle-double-left"></span>
+  next-label: <span class="fa fa-angle-double-right"></span>
+
+#--=== 商品资讯页 ===--#
+  btn-add-to-cart: Add to Cart
+  wish-list-add: Add to Wish List
+  nav-currency: Currency
+  wish-list-remove: Remove
+  btn-add-to-cart-none: No More Stock
+  best-matches: J & Z SELECT Recommendation
+
+  product-brand: Brand
+  product-size: Size
+  product-material: Material
+  product-country: Origin
+  product-color: Color
+  product-quantity: Quantity
+  product-quantity-none: No Stock
+  product-chosen: Selection
+
+  product-is-hidden: This product is off the shelf.
+  btn-continue: Keep on Shopping
+
+#--=== 购物车 ===--#
+  # 购物车 #
+  cart-index: Cart
+  cart-clear: Clear Cart
+  cart-list: Cart Item List
+
+  f-cart-product-info: Product Info
+  f-cart-product-price: Product Price
+  f-cart-product-quantity: Product Quantity
+  f-cart-product-count: Product Amount
+  f-cart-shipping-fee: Shipping Fee
+  f-cart-free-shipping: Free Shipping
+  f-cart-total: Total Amount：
+
+  btn-checkout: Checkout
+
+  cart-notice: Reminder, please complete payment within one hour.
+  cart-no-data: No product in the cart.
+  cart-suggest: J & Z SELECT suggests for you：
+
+# 生成订单 #
+  checkout-index: Order Info
+
+  f-billing-info: Billing Info
+  f-billing-name: Billing Name
+  f-billing-address: Billing Address
+  f-shipping-info: Shipping Info
+  f-shipping-name: Shipping Name
+  f-shipping-phone: Shipping Phone No.
+  f-shipping-address: Shipping Address
+  f-input-address: Please input address
+  f-payment-method: Payment Method
+
+  billing-name: Billing Name
+  billing-address: Billing Address
+  shipping-name: Shipping Name
+  shipping-phone: Shipping Phone No.
+  shipping-address: Shipping Address
+  btn-order-create: Confirm Order
+
+  # 订单 #
+  order-show: Order Details
+  btn-pay: Go to Payment
+  btn-apply-to-cancel: Apply to Cancel
+  order-payment-method: Payment Method
+  order-paid: < Payment completed, thank you. >
+
+#--=== 选单介面 ===--#
+  # Navbar #
+  signup: Sign Up
+  login: Log In
+  logout: Log Out
+  greeting: Hi!
+  wish-list: Wish List
+  cart: Cart
+  brand-access: Brand Access
+  recommend-access: Recommend Access
+  product-access: Products
+  admin-access: Admin Console
+  account-order-access: My Orders
+  user-center: My Profile
+  user-order: My Orders
+  language: Change Language
+  keywords: Search Product
+
+  # 后台操作面板 #
+  admin-order: Orders
+  admin-product: Products
+  admin-brand: Brands
+  admin-category: Categories
+  admin-homepage: Homepage Banner
+
+#--=== 使用者专区 ===--#
+
+  # 帐号相关 #
+  user-sign-up: Sign Up
+  user-log-in: Log In
+  user-had-account: Please log in.
+  user-have-not-account: Sign up now.
+  user-forget-psw: Forget Password?
+  user-find-psw: Find Password
+  user-remember-me: Remember Me
+  my-profile: My Profile
+  name: Name
+  nickname: Nickname
+  address: Address
+  phone: Phone
+  birthday: Birthday
+  gender: Gender
+  save: Save
+  male: Male
+  female: Female
+  warning-not-admin: You are not admin.
+
+  # 愿望清单 #
+  account-wish-list-index: Wish List
+  btn-move-to-cart: Add to cart
+  wish-no-data: No item in wish list.
+  wish-suggest: J & Z SELECT Recommend For You：
+
+  # 历史订单 #
+  account-order-index: Order List
+  f-order-created-at: Order Created Date
+  order-id: Order ID
+  order-total: Order Amount
+  order-date: Order Date
+  order-status: Oder Status
+  order-status-placed: Order placed, pending payment.
+  order-status-paid: Order paid, pending shipping.
+  order-status-shipping: Shipping
+  order-status-shipped: Order shipped.
+  order-status-cancelled: Order Cancelled.
+  order-status-returned: Order products returned.
+  order-status-placed-a: Order placed, pending payment.
+  order-status-paid-a: Order paid, pending shipping.
+  order-no-data: You haven't placed order yet.
+
+#--=== 管理员专区 ===--#
+  # 共用元素 #
+  f-options: Operation Options
+  f-hide: Hide
+  f-submit: Submit
+  f-image-upload: Upload Image
+  notice-no-image: No Image
+  btn-publish: Publish
+  btn-hide: Hide
+  btn-edit: Edit
+  btn-delete: Delete
+
+  # 订单管理 #
+  order-index: Order List
+  f-order-user: User Name
+  f-order-status: Order Status
+  f-order-action: Order Actions
+  f-order-status-shipping: Shipped
+  f-order-status-shipped: Delivered
+  f-order-status-cancelled: Cancelled
+  f-order-status-returned: Returned
+  order-state-paid: Paid
+  order-state-unpaid: Non-payment
+  btn-cancel-order: Cancel
+  btn-set-cancel: Cancel
+  btn-set-shipping: Shipped
+  btn-set-shipped: Delivered
+  btn-set-return: Return
+  cancelled: The order has been cancelled.
+  returned: The products have been returned.
+
+
+
+  # 品牌管理 #
+  brand-index: Brand Index
+  brand-new: New Brand
+  brand-edit: Edit Brand
+  f-brand-name: Brand Name
+  f-brand-logo: Brand Logo
+  f-brand-description: Brand Description
+  f-brand-products: Brand Products
+  btn-brand-new: New Brand
+
+  # 类型管理 #
+  category-group-index: Category Group Index
+  category-group-new: New Category Group
+  category-group-edit: Edit Category Group
+
+  f-category-group-name: Category Group Name
+  f-category-group-categories: Categories
+
+  btn-category-group-new: Add Category Group
+
+  # 分类管理 #
+  category-index: Category Index
+  category-new: New Category
+  category-edit: Edit Category
+
+  f-category-group: Category Group
+  f-category-groups: Category Groups
+  f-category-products: Category Products
+
+  btn-category-new: New Category
+
+  # 商品管理 #
+  product-index: Product List
+  product-new: New Product
+  Product-edit: Edit Product
+  btn-product-new: New Product
+  f-product-name: Product Name
+  f-product-brand: Product Brand
+  f-product-category: Product Category
+  f-product-price: Product Price
+  f-product-quantity: Product Quantity
+  f-product-description: Product Description
+  f-product-price: Product Price
+  f-product-color: Product Color
+  f-specification: Specification
+  f-product-size: Product Size
+  f-product-material: Product Material
+  f-product-country: Product Origin
+  f-product-chosen: Product Selection
+  f-product-images: Product Images
+
+  # 商品管理（搜索） #
+  search-no-data: No product meeting the search criteria!
+
+  # 品牌管理 #
+  intro-index: Intro List
+  intro-new: Add Intro
+  intro-edit: Edit Intro
+  f-intro-title: Intro Title
+  f-intro-content: Intro Content
+  f-intro-link: Intro Link
+  f-intro-image: Intro Image
+  btn-intro-new: Add Intro
